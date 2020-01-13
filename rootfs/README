@@ -1,0 +1,2 @@
+sudo mount ./linux2.6.34-ramdisk.img ./root
+

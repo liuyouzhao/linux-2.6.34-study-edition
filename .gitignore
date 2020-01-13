@@ -1,3 +1,6 @@
+/tools/bak/*
+**/*.o
+
 # Prerequisites
 *.d
 
