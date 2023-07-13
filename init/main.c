@@ -848,7 +848,7 @@ static noinline int init_post(void)
 	printk(KERN_INFO "Init process begin...\n");
 	printk(KERN_INFO "[0] run /init\n");
 	run_init_process("/init");
-    printk(KERN_INFO "[1] run /sbin/init\n");
+        printk(KERN_INFO "[1] run /sbin/init\n");
 	run_init_process("/sbin/init");
 	printk(KERN_INFO "[2] run /etc/init\n");
 	run_init_process("/etc/init");
