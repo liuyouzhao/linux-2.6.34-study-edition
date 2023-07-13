@@ -37,6 +37,12 @@ make -j<cpu-cores>
 
 For me: make -j16
 
+#### Update root folder
+cd ./rootfs
+mkdir root
+./rebuild.sh
+
+Then you will see linux2.6.34-ramdisk.img in rootfs folder.
 
 ### Run with qemu
 
